@@ -4,7 +4,7 @@
 */
 
 function merge<T>(objA: T, objB: T): T {
-  return Object.assign({}, objA, objB);
+  return Object.assign("object", objA, objB);
 }
 
 export {};
